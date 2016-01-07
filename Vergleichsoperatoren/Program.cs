@@ -18,6 +18,7 @@ namespace Vergleichsoperatoren
             resultat = IstUnGleich(meinAlter, alterMeinerTocher);
             Console.WriteLine("{0} ist UNGLEICH {1}: {2}", meinAlter, alterMeinerTocher, resultat);
 
+            Console.WriteLine();
             Console.WriteLine("Bitte Return eingeben zum beenden!");
             Console.ReadLine();
         }
